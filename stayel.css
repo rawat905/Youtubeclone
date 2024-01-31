@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#papa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   font-family:  'Nanum Myeongjo', serif;
+}
+.box img{
+    width: 32vw;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.animes{
+    margin: 10px 0px 0px 60px;
+    width: 25vw;
+    font-weight: bold;
+}
+.views{
+    margin: 10px 0px 10px 60px;
+    color:dimgrey;
+}
+.box .short{
+    width: 3vw;
+    height: 6vh;
+    margin-top: -72px;
+    border-radius: 30px;
+    
+}
+.timing{
+    color: white;
+    margin-top: -20px;
+    margin-left: 28.5vw;
+}
+.search{
+    padding:0.70% 10%;
+    border-radius: 8px;
+    margin: 1% 0% 0.60% 24%;
+    font-family:  'Nanum Myeongjo', serif;
+    font-size: 18px;
+    border-width: 1px;
+}
+.mic{
+    height: 3.70vh;
+}
+.you{
+    width: 7vw;
+    height: 8vh;
+    margin-left: 1.5%;
+}
+.chotepapa{
+    display: flex;
+    align-items: center;
+}
+.ring{
+    margin-left: 24.60%;
+}
+.ied{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+    border-radius: 50px;
+}
